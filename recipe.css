@@ -1,0 +1,113 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.homecontainer {
+    height: 100vh;
+    width: 100vw;
+}
+
+.headcontainer {
+    height: 55px;
+    width: 100vw;
+    border: 2px solid black;
+    background-color: #29eaed;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+}
+
+.navlogo {
+    display: flex;
+    font-size: 1.7rem;
+    align-items: center;
+}
+
+.menu {
+    justify-content: space-between;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 4px;
+
+}
+
+p {
+    margin-bottom: 7px;
+    margin-left: 10px;
+}
+
+#x1 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+main {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    background-color: rgb(243, 205, 139);
+}
+
+#img1 {
+    height: 370px;
+    width: 230px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+#img1:hover {
+    animation-delay: 722ms ease;
+    transition-delay: 232ms ease;
+    scale: 1.05;
+    box-shadow: 8px 8px 14px black;
+}
+
+.gulab1 {
+    /* border: 2px solid black; */
+    display: flex;
+    gap: 350px;
+    margin-left: 20px;
+    text-decoration: none;
+    align-items: center;
+}
+
+.Barfi1 {
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    gap: 350px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.recipe1,
+.recipe2 {
+    margin: 15px;
+}
+
+#p1 {
+    font-size: x-large;
+    font-weight: 800;
+    color: rgb(18, 59, 4);
+}
+
+.gulabtext {
+    row-gap: 20px;
+}
